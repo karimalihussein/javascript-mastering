@@ -221,6 +221,64 @@
 | `array`    | Represents an ordered list of values                     | `let numbers = [1, 2, 3];` |
 
 
+## Functions: Declaration, Expression, Arrow, Anonymous, IIFE, etc.
 
+- A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).
+
+- A JavaScript function is defined with the `function` keyword, followed by a name, followed by parentheses `()`.
+
+- Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+
+- The parentheses may include parameter names separated by commas: `(parameter1, parameter2, ...)`
+
+- The code to be executed, by the function, is placed inside curly brackets: `{ code to be executed }`
+
+- Function parameters are listed inside the parentheses `()` in the function definition.
+
+- Function arguments are the values received by the function when it is invoked.
+
+- Inside the function, the arguments (the parameters) behave as local variables.
+
+- A function can be called multiple times to produce different results.
+
+- A function can have one or more parameters, but it can also have no parameters at all.
+
+- A function can return data as a result, but it can also return nothing as void.
+
+- A function can be declared, assigned to a variable, passed as an argument to another function, or returned from another function.
+
+
+
+## Introduction to Global & Local Scope
+
+- In JavaScript there are two types of scope:
+
+  - Local scope
+  - Global scope
+
+- JavaScript has function scope: Each function creates a new scope.
+- Scope determines the accessibility (visibility) of these variables.
+- Variables defined inside a function are not accessible (visible) from outside the function.
+- Local variables have Function scope: They can only be accessed from within the function.
+- Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
+
+```js
+const max = 100; // global variable
+// code here can NOT use carName
+function myFunction() {
+  var carName = "Volvo";
+
+  // code here CAN use carName
+}
+
+function globalFunction() {
+  console.log(max);
+} // 100
+```
+
+
+
+
+```
 
 
