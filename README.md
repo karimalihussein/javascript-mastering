@@ -277,6 +277,27 @@ function globalFunction() {
 ```
 
 
+-------------
+
+# Behind the Scenes of JavaScript
+
+- JavaScript is a single-threaded, non-blocking, asynchronous, concurrent language.
+- JavaScript is a single-threaded language, meaning only one task can be executed at a time.
+- JavaScript is non-blocking, meaning that code execution can not be blocked by I/O operations.
+
+## JavaScript Engine & Runtime: Call Stack, Heap, Web API, Event Loop
+
+- JavaScript Engine is a program that converts JavaScript code into something the computer processor can understand.
+- JavaScript Runtime is a program that includes everything you need to execute a JavaScript program.
+- Call Stack is a data structure that records where in the program we are.
+- Heap is an unstructured memory pool which stores all the objects and values which our application needs.
+- Web API is a collection of JavaScript functions that we can access in the browser.
+
+
+
+
+
+
 
 
 
