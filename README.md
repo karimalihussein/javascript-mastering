@@ -116,4 +116,111 @@
 
 ## Operators: Arithmetic, Assignment, Comparison, Logical, Bitwise, etc.
 
+- JavaScript supports the following types of operators:
+
+  - Arithmetic Operators
+  - Assignment Operators
+  - Comparison Operators
+  - Logical Operators
+  - Bitwise Operators
+  - String Operators
+  - Conditional (Ternary) Operator
+
+## Arithmetic Operators
+
+- Arithmetic operators are used to perform arithmetic between variables and/or values. JavaScript supports the following arithmetic operators:
+
+| Operator | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| +        | Addition                                                                    |
+| -        | Subtraction                                                                 |
+| *        | Multiplication                                                              |
+| /        | Division                                                                    |
+| %        | Modulus (division remainder)                                                |
+| ++       | Increment                                                                   |
+| --       | Decrement                                                                   |
+| **       | Exponentiation (ES2016)                                                     |
+
+## Assignment Operators
+
+- Assignment operators are used to assign values to variables. JavaScript supports the following assignment operators:
+
+| Operator | Example | Same As |
+|----------|---------|---------|
+| =        | x = y   | x = y   |
+| +=       | x += y  | x = x + y |
+| -=       | x -= y  | x = x - y |
+| *=       | x *= y  | x = x * y |
+| /=       | x /= y  | x = x / y |
+| %=       | x %= y  | x = x % y |
+| **=      | x **= y | x = x ** y |
+
+## Comparison Operators
+
+- Comparison operators are used to compare two values and return true or false depending on the result of the comparison. JavaScript supports the following comparison operators:
+
+| Operator | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| ==       | Equal                                                                       |
+| ===      | Equal value and equal type                                                  |
+| !=       | Not equal                                                                   |
+| !==      | Not equal value or not equal type                                            |
+| >        | Greater than                                                                |
+| <        | Less than                                                                   |
+| >=       | Greater than or equal                                                       |
+| <=       | Less than or equal                                                          |
+| ?        | Ternary operator                                                            |
+
+## Logical Operators
+
+- Logical operators are used to determine the logic between variables or values. JavaScript supports the following logical operators:
+
+| Operator | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| &&       | Logical and                                                                 |
+| \|\|     | Logical or                                                                  |
+| !        | Logical not                                                                 |
+| ||       | Logical or                                                                  |
+
+## Bitwise Operators
+
+- Bitwise operators are used to perform bitwise operations on 32-bit integers. JavaScript supports the following bitwise operators:
+
+| Operator | Description                                                                 |
+|----------|-----------------------------------------------------------------------------|
+| &        | AND                                                                         |
+| \|       | OR                                                                          |
+| ~        | NOT                                                                         |
+| ^        | XOR                                                                         |
+| <<       | Left shift                                                                  |
+| >>       | Right shift                                                                 |
+| >>>      | Zero fill right shift                                                       |
+
+
+## String Operators
+
+- The + operator can also be used to concatenate (add) strings.
+
+## Conditional (Ternary) Operator
+
+- The conditional operator assigns a value to a variable based on a condition.
+
+## Data Types
+
+- JavaScript variables can hold many data types: numbers, strings, objects and more:
+
+| Data Type  | Description                                              | Example                    |
+|------------|----------------------------------------------------------|----------------------------|
+| `undefined`| Represents an uninitialized or absent value              | `let x;`                   |
+| `null`     | Represents the intentional absence of any object value   | `let y = null;`            |
+| `boolean`  | Represents a logical entity, `true` or `false`           | `let isTrue = true;`       |
+| `number`   | Represents numeric values                                | `let count = 10;`          |
+| `string`   | Represents textual data                                  | `let name = "John";`       |
+| `symbol`   | Represents unique, immutable values used as property keys | `let key = Symbol();`      |
+| `object`   | Represents a collection of key-value pairs or complex data structures | `let person = { name: "John", age: 30 };` |
+| `array`    | Represents an ordered list of values                     | `let numbers = [1, 2, 3];` |
+
+
+
+
 
