@@ -279,6 +279,5 @@ function globalFunction() {
 
 
 
-```
 
 
