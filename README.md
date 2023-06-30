@@ -83,3 +83,36 @@
 | 1997 - 2005| Several versions of ECMAScript were released during this period, including ECMAScript 2 (1997), ECMAScript 3 (1999), and ECMAScript 4 (abandoned). These versions introduced various new features and improvements. |
 | 2006       | ECMAScript 3.1, also known as ECMAScript 5, was released. It brought significant enhancements to the language, including strict mode, JSON support, and new array methods.                                          |
 | 2011       | ECMAScript 5.1 was released as a minor update to ECMAScript 5. It fixed some inconsistencies and improved the specification.                                                                                        |
+
+
+-----------------------
+
+## Variables
+
+- A variable is a container for storing data values. In JavaScript, we use the var keyword to declare variables, followed by the variable name.
+
+## Var vs Let vs Const
+
+| Feature        | `var`                          | `let`                          | `const`                          |
+|----------------|--------------------------------|--------------------------------|----------------------------------|
+| Scope          | Function scope                 | Block scope                    | Block scope                      |
+| Hoisting       | Hoisted to the top             | Not hoisted                    | Not hoisted                      |
+| Reassignment   | Can be reassigned              | Can be reassigned              | Cannot be reassigned             |
+| Initialization | Can be declared without value  | Can be declared without value  | Must be assigned when declared   |
+
+## Variables Naming Conventions
+
+| Naming Convention      | Allowed                                              | Not Allowed / Not Recommended                           |
+|------------------------|------------------------------------------------------|---------------------------------------------------------|
+| Camel Case             | `myVariable`, `totalAmount`, `userName`              | `MyVariable`, `TotalAmount`, `USER_NAME`                |
+| Pascal Case            | `MyVariable`, `TotalAmount`, `UserName`              | `myVariable`, `totalAmount`, `user_name`                |
+| Snake Case             | `my_variable`, `total_amount`, `user_name`           | `My_Variable`, `Total_Amount`, `UserName`               |
+| Hungarian Notation     | `strName`, `nCount`, `bIsVisible`                    | Not recommended due to decreased readability            |
+| Underscore Prefix      | `_privateVariable`, `_internalFunction`              | Not recommended, often used for special purposes        |
+| Single Character Names | `i`, `j`, `x`, `y`, `z`                              | Not recommended, lacks meaningful identifiers           |
+| Abbreviations          | `num`, `btn`, `errMsg`                               | Use full words whenever possible                        |
+| Meaningful Names       | `firstName`, `itemPrice`, `isLoggedIn`               | Generic names like `temp`, `data`, `value`              |
+| Constants              | `MAX_SIZE`, `DEFAULT_COLOR`, `PI`                    | Regular variables written in all caps                   |
+
+
+
