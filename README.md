@@ -114,5 +114,6 @@
 | Meaningful Names       | `firstName`, `itemPrice`, `isLoggedIn`               | Generic names like `temp`, `data`, `value`              |
 | Constants              | `MAX_SIZE`, `DEFAULT_COLOR`, `PI`                    | Regular variables written in all caps                   |
 
+## Operators: Arithmetic, Assignment, Comparison, Logical, Bitwise, etc.
 
 
